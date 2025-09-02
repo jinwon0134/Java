@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+//TIP 코드를 <b>실행</b>하려면 <shortcut actionId="Run"/>을(를) 누르거나
+// 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
+public class Main {
+    public static void main(String[] args) {
+
+        int number;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("숫자를 입력하세요: ");
+        number = sc.nextInt();
+
+        if(number % 2 == 1){
+            System.out.println("홀수입니다.");
+        }
+        else{
+            System.out.println("짝수입니다.");
+        }
+
+    }
+}
